@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Yaroslav Elaev](https://up.htmlacademy.ru/htmlcss/40/user/2533113).
-* Наставник: `Неизвестно`.
+* Наставник: [Дина Шарипова](https://htmlacademy.ru/profile/id1418957).
 
 ---
 
