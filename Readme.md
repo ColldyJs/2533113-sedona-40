@@ -2,6 +2,7 @@
 
 * Студент: [Yaroslav Elaev](https://up.htmlacademy.ru/htmlcss/40/user/2533113).
 * Наставник: [Дина Шарипова](https://htmlacademy.ru/profile/id1418957).
+* Ссылка на Сайт: (https://colldyjs.github.io/2533113-sedona-40/)
 
 ---
 
