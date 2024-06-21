@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="styles/style.css">
+
   </head>
   <body>
 
@@ -14,19 +15,19 @@
         </a>
         <ul class="header-navigation-list">
           <li class="header-navigation-item">
-            <a href="index.html">
+            <a class="header-navigation-link" href="index.html">
               Главаная
             </a>
           </li>
 
           <li class="header-navigation-item">
-            <a href="#">
+            <a class="header-navigation-link" href="#">
               О седоне
             </a>
           </li>
 
           <li class="header-navigation-item">
-            <a href="./catalog.html">
+            <a  class="header-navigation-link" href="./catalog.html">
               Гостиницы
             </a>
           </li>
@@ -34,7 +35,7 @@
 
         <ul class="header-add-list">
           <li class="header-add-item">
-            <a href="#">
+            <a class="header-navigation-link" href="#">
               <span class="visually-hidden">Поиск</span>
             </a>
           </li>
@@ -56,82 +57,102 @@
     </header>
 
     <main class="main-index">
-
+       <!-- Исправить секцию , отделить текст от картинки , вынести в отдельную секцию -->
       <section class="main-hero">
         <h1 class="visually-hidden">SEDONA</h1>
-        <img src="images/header_background .jpg" width="1200" height="485" alt="Фоновая картинка Седоны">
+        <img class="welcome_svg" src="images/svg/header_welcome.svg" width="458" height="382" alt="Welcome logo">
+
+      </section>
+
+      <section class="text-title">
         <p class="visually-hidden">Welcome to the gorgeous Sedona, because the Grand Canyon sucks!</p>
-            <h2>Седона — небольшой городок в Аризоне, заслуживающий большего!</h2>
-            <p>Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
+        <h2 class="advantages-title title">Седона — небольшой городок в Аризоне,<br> заслуживающий большего!</h2>
+        <p class="advantages-text">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
       </section>
 
       <section class="advantages-tir1">
         <ul class="advantages-list1">
 
+          <div class="advantages-section">
           <li class="advantages-item">
-            <h3 class="advantages-title">Настоящий городок</h3>
-            <p>Седона — не аттракцион для туристов, там течёт своя жизнь</p>
-            <img src="images/content_photo-1 .jpg" width="800" height="385" alt="Фогорфия города">
+            <h3 class="advantages-title-one">Настоящий городок</h3>
+            <p class="advantages-text-p">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+            <img src="images/content_photo-1 .jpg" width="800" height="385" alt="Фотография города">
           </li>
+          </div>
 
+          <div class="advantages-section2">
           <li class="advantages-item">
             <h3 class="advantages-title">Небольшая площадь</h3>
-            <p>Все достопримечательности находятся очень близко</p>
+            <p class="advantages-text-p1">Все достопримечательности находятся очень близко</p>
           </li>
+        </div>
 
+        <div class="advantages-section3">
           <li class="advantages-item">
             <h3 class="advantages-title">Красивая дорога</h3>
-            <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+            <p class="advantages-text-p1">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
           </li>
+          </div>
 
+          <div class="advantages-section4">
           <li class="advantages-item">
             <h3 class="advantages-title">Мало туристов</h3>
-            <p>Большинство едет в Гранд Каньон и толпится там</p>
+            <p class="advantages-text-p1">Большинство едет в Гранд Каньон и толпится там</p>
           </li>
+          </div>
 
+          <div class="advantages-section5">
           <li class="advantages-item">
-            <h3 class="advantages-title">Там есть мост дьявола</h3>
-            <p>Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+            <h3 class="advantages-title-one">Там есть мост дьявола</h3>
+            <p class="advantages-text-p">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
             <img src="images/content_photo-2.jpg" width="800" height="385" alt="Фотография моста Дьявола">
           </li>
+          </div>
 
-        </ul>
+      </ul>
       </section>
 
       <section class="advantages-tir2">
-        <h3>Приезжайте в Седону отдохнуть в комфорте и уюте!</h3>
-        <p>Опытный персонал и качественное обслуживание!</p>
+        <h3 class="advantages-tir2-title">Приезжайте в Седону отдохнуть в комфорте и уюте!</h3>
+        <p class="advantages-tir2-text">Опытный персонал и качественное обслуживание!</p>
 
         <ul class="advantages-list2">
 
+          <div class="advantages-block1">
           <li class="advantages-item2">
             <img src="images/svg/Vector-home .svg"  width="75" height="72" alt="Картинка домика">
             <h3 class="advantages-title2">Жильё</h3>
-            <p>Рекомендуем пожить в настоящем мотеле,
+            <p class="advantages-text-tir2">Рекомендуем пожить в настоящем мотеле,
               всё как в кино!</p>
           </li>
+          </div>
 
+          <div class="advantages-block2">
           <li class="advantages-item2">
             <img src="images/svg/Vector-food .svg" width="74" height="70" alt="Картинка бургера">
             <h3 class="advantages-title2">Еда</h3>
-            <p>Всегда заказывайте
+            <p class="advantages-text-tir2">Всегда заказывайте
               топовый фирменный бургер, вы не разочаруетесь!</p>
           </li>
+          </div>
 
+          <div class="advantages-block3">
           <li class="advantages-item2">
             <img src="images/svg/Vector-present.svg" width="64" height="76" alt="Картинка подарка">
             <h3 class="advantages-title2">Сувениры</h3>
-            <p>Не только китайского,
+            <p class="advantages-text-tir2">Не только китайского,
               но и настоящего местного производства!</p>
           </li>
+          </div>
         </ul>
 
       </section>
 
       <section class="search">
-        <h3 class="visually-hidden">Заинтересовались?</h3>
+        <h3 class="search-title">Заинтересовались?</h3>
 
-        <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+        <p class="search-text">Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в Седоне</p>
 
         <button class="button button-search-hotel uppercase" type="button">
           ПОИСК ГОСТИНИЦЫ В СЕДОНЕ
@@ -139,15 +160,16 @@
 
       </section>
       <!--Подправить изображение -->
-      <section class="subscribe">
-        <img src="images/subscribe_background.jpg" width="800" height="365" alt="Фоновое изборажения на рассылке">
 
-        <h3>Подпишитесь на рассылку</h3>
-        <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
+      <section class="subscribe">
+
+
+        <h3 class="subscribe-title">Подпишитесь на рассылку</h3>
+        <p class="subscribe-text">Только полезная информация и никакого спама, честное бойскаутское!</p>
 
         <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
-        <input type="email" placeholder="Ваш e-mail" name="subscribe-email" required>
-        <button class="button button-subscribe uppercase" type="submit">Подписаться</button>
+        <input class="subscribe-input" type="email" placeholder="Ваш e-mail" name="subscribe-email" required>
+        <button class=" button-subscribe uppercase" type="submit">Подписаться</button>
         </form>
 
       </section>
@@ -185,11 +207,11 @@
             +7 (812) 812-12-12
           </a>
         </address>
-
+        <div class="html-academy-logo">
         <a href="https://htmlacademy.ru/intensive/htmlcss">
           <img src="images/svg/Logo-html_academy.svg" width="115" height="33" alt="Логотип  HTML Academy">
         </a>
-
+        </div>
       </section>
 
 
